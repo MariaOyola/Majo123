@@ -9,3 +9,4 @@ INSERT INTO status (name) VALUES
 ('pagado'),
 ('anulado'),
 ('bloqueado');
+

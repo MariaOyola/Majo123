@@ -1,1 +1,0 @@
-DELETE FROM status WHERE name IN ('activo', 'inactivo', 'eliminado', 'pendiente', 'preparado'); 

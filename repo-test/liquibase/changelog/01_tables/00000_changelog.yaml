@@ -10,8 +10,8 @@ databaseChangeLog:
             tag: v1.0.0
         - sqlFile:
             path: 01_tables/0001_create_table_status.sql
-            endDelimiter: \nGO
             stripComments: false
       rollback:
         - sqlFile:
             path: 11_rollbacks/01_tables/0001_create_table_status.sql
+            stripComments: false

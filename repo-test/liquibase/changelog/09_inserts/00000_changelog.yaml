@@ -8,6 +8,8 @@ databaseChangeLog:
       changes:
         - sqlFile:
             path: 09_inserts/0001_insert_status.sql
+            stripComments: false
       rollback:
         - sqlFile:
             path: 11_rollbacks/09_inserts/0001_delete_status.sql
+            stripComments: false
